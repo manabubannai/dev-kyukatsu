@@ -1,0 +1,7 @@
+<div id="sns-flat-top-home">
+<ul>
+         <li><a href="http://www.facebook.com/share.php?u=<?php the_permalink(); ?>" onclick="window.open(this.href, 'FBwindow', 'width=650, height=450, menubar=no, toolbar=no, scrollbars=yes'); return false;" class="single-social-facebook" target="blank"><img id="sns-share-fb" onclick="window.open(this.href, 'FBwindow', 'width100%, height=450, menubar=no, toolbar=no, scrollbars=yes'); return false;" style="width:95%;" src="http://kyukatsu.com/wp-content/uploads/2014/03/facebook-button.png"></a></li>
+        <li><a href="http://twitter.com/share?count=horizontal&amp;original_referer=<?php the_permalink(); ?>&amp;text=<?php the_title(); ?> &amp;url=<?php the_permalink(); ?>&amp;via=kyukatsu" onclick="window.open(this.href, 'tweetwindow', 'width=550, height=450,personalbar=0,toolbar=0,scrollbars=1,resizable=1'); return false;" class="single-social-twitter"><img id="sns-share-tw" src="http://kyukatsu.com/wp-content/uploads/2014/03/twitter-button.png" style="width:95%;"></a></li>
+　　  <li><a href="http://b.hatena.ne.jp/<?php the_permalink(); ?>" data-hatena-bookmark-title="<?php the_title(); ?> | <?php bloginfo(‘name’); ?>" data-hatena-bookmark-title="休活BLOG" title="このエントリーをはてなブックマークに追加"><img src="http://kyukatsu.com/wp-content/uploads/2014/03/hatebu-button.png" alt="このエントリーをはてなブックマークに追加" width="95%" /></a><script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script></li>
+</ul>
+</div>

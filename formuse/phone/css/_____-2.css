@@ -1,0 +1,48 @@
+@-ms-viewport
+{
+	width: 300px;
+}
+
+@-webkit-viewport
+{
+	width: 300px;
+}
+
+@-o-viewport
+{
+	width: 300px;
+}
+
+@-moz-viewport
+{
+	width: 300px;
+}
+
+@viewport
+{
+	width: 300px;
+}
+
+.html
+{
+	background-color: #FFFFFF;
+}
+
+#page
+{
+	z-index: 1;
+	width: 0px;
+	min-height: 0px;
+	background-image: none;
+	border-style: none;
+	border-color: #FFFFFF;
+	background-color: #FFFFFF;
+	padding-right: 300px;
+	padding-bottom: 570px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+

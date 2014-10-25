@@ -1,0 +1,206 @@
+/*
+* Skeleton V1.1
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 8/17/2011
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+#koganezawa2 .slidebox2{display: none!important;}
+
+
+/* #Site Styles
+================================================== */
+
+/* #Page Styles
+================================================== */
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+
+	#botmenu #submenu {
+	margin-left: 45px!important;
+	}
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+
+	#blogname h1{ text-align:center;	}
+
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	.btitle h2{	text-align:center;}
+	.intro{	padding:10px ; font-size:18px;}
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+
+	div.container div.eleven div#content article#post-1622 div.entry p a img.alignright {
+		float: left;
+	}
+
+
+	/* 画像上の帯コンテンツ開始 */
+
+	.container.casing .container .four.columns {
+	    padding: 1px!important;
+	}
+
+
+	#bottom div.fb-like-box,
+	#bottom div.fb-like-box iframe[style],
+	#bottom div.fb-like-box span {
+    	width: 100% !important;
+	}
+
+
+
+	.container.home-widget  .one-third.column h2{
+		left: 4px;
+		width: 292px;
+	}
+
+
+	.topfeed{
+	font-size: 13px;
+	text-align: center;
+	}
+
+	.btitle h2{	text-align:center;}
+	.intro{	padding:10px; font-size:18px;}
+
+	#very-special-field2{
+	margin-top: -13px;
+	margin-bottom: 20px;
+	}
+
+	.ads-foot{
+	margin-top:8px;
+	text-align: center;
+	margin-left: 58px;
+	}
+
+
+	.slidebox h2,.slidebox2 h2, .slidebox3 h2{
+	font-size: 20px;
+	color: black;
+	color: #141414;
+	font-weight:bold;
+	line-height: 1.5em; /* 行間 */
+	border-bottom:1px solid rgb(0,143,210); /* 下線 */
+	border-left:10px solid rgb(0,143,210); /* 左側の線 */
+	margin: 0px 0 10px 0; /* 上下の余白 */
+	padding:3px 10px 1px 10px; /* テキストとボーダーの間の余白 */
+	}
+
+	#kiji_bottom{
+	padding-bottom: 230px;
+	display: visible!important;
+}
+
+
+/*	.textwidget .impact1 img{
+	display: hidden!important;
+	}
+
+	.textwidget{
+		visibility: hidden;
+		margin-top: -250px;
+	}
+*/
+
+	.slidebox h2{
+		visibility: visible!important;
+		display: visible;
+		margin-top: -30px;
+	}
+	.slidebox2 h2{
+		visibility: visible!important;
+		display: visible;
+		margin-top: 30px;
+		margin-bottom: -20px;
+	}
+
+	.slidebox3 h2{
+		visibility: visible!important;
+		margin-top: -10px;
+	}
+
+	.textwidget .impact1 img{
+		text-decoration: none!important;
+		width: 290px!important;
+		height: 210px!important;
+	}
+
+
+	.sidebar .textwidget{
+		margin-top: 10px;
+	}
+	.slideimg img{
+		width: 110%!important;
+		height: 120%!important;
+	}
+
+	.logo a img{
+	width:80%;
+	margin: 0 auto;
+	}
+
+	#botmenu{
+	margin:0px 0!important;
+	}
+	#submenu {
+    height: 200px;
+	}
+
+	#submenu ul {
+	margin-bottom: 10px;
+	}
+
+	#submenu li {
+	margin: 0px auto;
+	width:95%;
+    box-shadow: 0px 0px 4px #c0c0c0;
+    -moz-box-shadow: 0px 0px 4px #c0c0c0;
+    -webkit-box-shadow: 0px 0px 4px #c0c0c0;
+	}
+
+	#submenu li a {
+	color: #222222;
+	text-align: center;
+	border: 1px #999 solid;
+	padding: 10px 10px 10px 10px!important;
+	font-weight:500;
+    }
+	#snstop{
+		float: none;
+		position: relative;
+		width: 100%;
+		margin: 0 24px;
+	}
+
+
+
+
+	}
+
